@@ -1,76 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Challenge Name: Birthday cake candles
 
-> One paragraph statement about the project.
+You are in charge of the cake for a child's birthday. You have decided the cake will have one candle for each year of their total age. They will only be able to blow out the tallest of the candles. Count how many candles are tallest.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+Example
 
 
-## Getting Started
+The maximum height candles are  units high. There are  of them, so return .
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Function Description
 
+Complete the function birthdayCakeCandles in the editor below.
 
-To get a local copy up and running follow these simple example steps.
+birthdayCakeCandles has the following parameter(s):
 
-### Prerequisites
+int candles[n]: the candle heights
+Returns
 
-### Setup
+int: the number of candles that are tallest
+Input Format
 
-### Install
+The first line contains a single integer, , the size of .
+The second line contains  space-separated integers, where each integer  describes the height of .
 
-### Usage
+Constraints
 
-### Run tests
+Sample Input 0
 
-### Deployment
+4
+3 2 1 3
+Sample Output 0
 
+2
+Explanation 0
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Candle heights are . The tallest candles are  units, and there are  of them.
